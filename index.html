@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <h1>Old Minecraft</h1>
 
@@ -46,13 +47,47 @@
 
   <!-- Server Info Box -->
   <div class="info-box">
-    <h2>معلومات عن السيرفر:</h2>
-    <ul>
-      <li>يدعم نسخة الجافا: <strong>1.21.4</strong> فقط</li>
-      <li>يدعم نسخة البيدروك: <strong>جميع النسخ الحديثة</strong> (يفضل من 1.21 فما فوق)</li>
-      <li>المميزات: <strong>بدون مميزات</strong></li>
-      <li>المودات: <strong>بدون مودات</strong></li>
+    <h2 class="small-title">معلومات عن السيرفر:</h2>
+    <ul class="features">
+      <li class="feature-item">يدعم نسخة الجافا: <strong>1.21.4</strong> فقط</li>
+      <li class="feature-item">يدعم نسخة البيدروك: <strong>جميع النسخ الحديثة</strong> (يفضل من 1.21 فما فوق)</li>
+      <li class="feature-item">المميزات:</li>
     </ul>
+    <div class="features-box">
+      <div class="feature">حماية المنطقة باستخدام بلوقن Grief Prevention</div>
+      <div class="feature">تكسير الشجرة بالكامل بضغطة واحدة</div>
+      <div class="feature">نوم لاعب واحد فقط لتخطي الليل</div>
+    </div>
+  </div>
+
+  <!-- Grief Prevention Plugin Info Box -->
+  <div class="info-box">
+    <h2 class="plugin-title">شرح بلوقن الحماية Grief Prevention:</h2>
+    <div class="commands">
+      <div class="command">
+        <strong>/claim</strong> : لإنشاء حماية لمنطقتك باستخدام العصا الذهبية.
+      </div>
+      <div class="command">
+        <strong>/abandonclaim</strong> : لإلغاء وحذف الحماية التي أنشأتها.
+      </div>
+      <div class="command">
+        <strong>/trust [اسم اللاعب]</strong> : السماح للاعب بالبناء داخل منطقتك.
+      </div>
+      <div class="command">
+        <strong>/untrust [اسم اللاعب]</strong> : إزالة صلاحيات البناء من اللاعب.
+      </div>
+      <div class="command">
+        <strong>/accesstrust [اسم اللاعب]</strong> : السماح باستخدام الأبواب والأزرار فقط.
+      </div>
+      <div class="command">
+        <strong>/containertrust [اسم اللاعب]</strong> : السماح باستخدام الصناديق والبوابات.
+      </div>
+    </div>
+
+    <div style="margin-top: 20px;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/H6WxRIZGFxI"
+      title="شرح بلوقن Grief Prevention" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   </div>
 
   <!-- Footer -->
@@ -60,4 +95,4 @@
     حقوق النشر محفوظة © AYØUB
   </footer>
 </body>
-</html>
+  </html>
