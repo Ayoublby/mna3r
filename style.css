@@ -95,10 +95,62 @@ h1 {
   color: #00ffb3;
 }
 
-.info-box ul {
+/* تصغير عنوان شرح البلوقن */
+.plugin-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  color: #00ffb3;
+}
+
+/* تصغير عنوان معلومات السيرفر */
+.small-title {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #00ffb3;
+}
+
+/* تنسيق قائمة المميزات */
+.features {
   list-style: none;
   padding: 0;
-  line-height: 1.8;
+  margin: 0 0 10px 0;
+}
+
+.feature-item {
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+
+.features-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.feature {
+  background: #2f2f2f;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  font-size: 1.05rem;
+}
+
+/* تنسيق أوامر البلوقن */
+.commands {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.command {
+  background: #2f2f2f;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  font-size: 1.05rem;
+  text-align: right;
 }
 
 footer {
